@@ -24,3 +24,21 @@ modebtn.addEventListener("click", function () {
     console.log("Light Mode ON");
   }
 });
+// Body ko flexbox banao
+document.body.style.display = "flex";
+document.body.style.justifyContent = "center";  // Horizontally center
+document.body.style.alignItems = "center";
+ document.body.style.margin = "0";
+ document.body.style.height = "100vh";
+
+modebtn.style.border="5px solid yellow"
+modebtn.style.fontSize="50px"
+modebtn.style.justfyContent
+// Button ko style do (optional)
+
+modebtn.style.padding = "15px 32px";
+modebtn.style.fontSize = "20px";
+modebtn.style.backgroundColor = "blue";
+modebtn.style.color = "white"
+modebtn.style.borderRadius = "100px";
+modebtn.style.cursor = "pointer";
